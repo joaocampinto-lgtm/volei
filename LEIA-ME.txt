@@ -1,0 +1,27 @@
+Ao abrir o site voce se depara com tres bandeiras, uma do brasil, uma da turquia e outra da italia, que são clicaveis. Ao clicar em uma delas voce pode navegar sobre as informações
+de jogadoras e tecnico das seleções, mostrando a data de nascimento e idade, medalhas, posição(no caso das jogadoras), nacionalidade, nome e etc. Alem disso, quando clicar em uma 
+bandeira abrira um select para voce obter as mesma informações listadas acima sobre as seleções porem agora sobre os time das ligas desses respectivos paises clicados, recebendo assim 
+todas as informações do time selecionado.
+Ademais tem uma barra de pesquisa em cima das bandeiras que ao colocar o nome correto de uma das jogadoras contida no banco de dados retorna todas as informações dela, sendo essas, o
+tecnico do time dela e da seleção(caso estiver), medalhas, idade e data de nascimento, nacionalidade e etc.
+Tambem possui um sistema de REST, localizado ao final na pagina. Quando clicar no botão "CARREGA DADOS" apareceram 3 formularios, um para cadastro de jogadora casual(no qual se 
+pede nome, data de nascimento, nacionalidade e altura), um para cadastro de um time(no qual se pede nome, criador e nacionalidade) e o ulitmo no qual junta os dois e cadastra uma 
+jogadora em um time, sendo a jogadora casual(a q cadastra) ou profissional( a contida no banco de dados) e o time um qualquer q voce cadastra antes. Apos cadastrar, voce pode editar 
+a jogadora casual(apenas ela) ou exclui-la assim como pode tambem excluir o time.
+E por fim temos o sistema de simulação no qual e possivel acessar apenas quando se tem pelo menos um time de cada requisito(sendo eles, um time da turquia, um da italia, um do brasil
+e um time dos sonhos, porem como ja vem todos os times de turquia, italia e brasil inclusive suas seleções e necessario apenas a criação de um time dos sonhos para usar o sistema de
+simulação). O sistema funciona como uma disputa de pontos entre duas equipes selecionadas, no qual o sistema calcula os pontos das duas equipes e quem tiver mais pontos ganha. Os 
+criterios de pontuação são:
+    Se a jogadora for casual o time recebe +1 ponto
+    Se a jogadora for profissional o time recebe +2 pontos
+
+Em relação ao ranking das jogadoras tbm:
+    top 1000: +4 pontos
+    top 500: +6 pontos
+    top 200: +10 pontos
+    top 100: +12 pontos
+    top 50: +14 pontos
+    top 10: +16 pontos
+    top 5: +24 pontos
+
+!!! LINK DO VIDEO EXPLICATIVO DO SITE: https://youtu.be/GclL4E5w3sM !!!
