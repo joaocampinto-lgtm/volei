@@ -1,0 +1,89 @@
+@import 'bulma/css/bulma.css';
+
+body {
+    font-family: 'Gotham', Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.custom-box {
+    background-color: rgb(209, 255, 231);
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.custom-box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.aa {
+    background-color: rgb(255, 255, 255);
+    margin: 20px auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 15px;
+}
+
+.ii {
+    background-color: rgb(209, 255, 231);
+}
+
+.a {
+    font-size: 50px;
+    color: rgb(64, 107, 85);
+    margin: 20px 0;
+}
+
+.porr {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.button {
+    background-color: rgb(64, 107, 85);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: rgb(80, 130, 100);
+}
+
+.rt {
+    background-color: rgb(172, 12, 12);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.rt:hover {
+    background-color: rgb(238, 155, 155);
+}
+
+.rp {
+    background-color: rgb(252, 175, 31);
+    color: white;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.rp:hover {
+    background-color: rgb(250, 210, 136);
+}
+
+.Bandeira {
+    transition: transform 0.3s, opacity 0.3s;
+}
+
+.Bandeira:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+}

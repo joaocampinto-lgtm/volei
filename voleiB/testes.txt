@@ -1,0 +1,24 @@
+sonho
+{
+    "nome": "aaaaaa",
+    "criador": "aaaar",
+    "nacionalidade": "aaaaa"
+}
+
+
+jogadora
+{
+    "nome": "aaaaaaa",
+    "nascimento": "20/02/2007",
+    "nacionalidade": "Brasileira",
+    "posicao": "Central",
+    "tipo": "Casual",
+    "idS": 0,
+    "idT": 10
+}
+
+JogTime
+{
+    "idJ": req.body.idJ,
+    "idT": req.body.idT
+}
